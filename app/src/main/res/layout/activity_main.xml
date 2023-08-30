@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    
+    <me.tankery.lib.circularseekbar.CircularSeekBar
+        android:id="@+id/circularSeekBar"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:layout_centerInParent="true"
+        app:cs_circle_color="@color/black"
+        app:cs_circle_fill="@color/white"
+        app:cs_circle_progress_color = "#FF4242"
+        app:cs_pointer_color = "@color/purple_500"
+        app:cs_circle_stroke_width="30sp"
+        app:cs_circle_style="round"
+        app:cs_circle_x_radius="0sp"
+        app:cs_circle_y_radius="0sp"
+        app:cs_disable_pointer="false"
+        app:cs_lock_enabled="true"
+        app:cs_maintain_equal_circle="true"
+        app:cs_max="100"
+        app:cs_move_outside_circle="true"
+        app:cs_negative_enabled="false"
+        app:cs_pointer_alpha_ontouch="5"
+        app:cs_pointer_stroke_width="20sp"
+        app:cs_progress="0"
+        app:cs_use_custom_radii="false"/>
+
+
+</RelativeLayout>
